@@ -16,4 +16,6 @@ jobs:
         password: "16075782d137236f5e72b7ffce458f455ca6758e8d04bc93f5a539a1a56e42b0"
         testPaths: "**/TestResults/TestResults.xml"
         projectKey: "PXS"
-        testExecKey: "PXS-01"
+        testExecKey: "PXS-02"
+        testFormat: "nunit"
+
