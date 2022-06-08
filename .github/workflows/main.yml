@@ -1,0 +1,23 @@
+name: main
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - name: Build
+      run: dotnet build .\EleviaUI\ --no-restore
+    - name: Test
+      run: dotnet test .\EleviaUI\ --logger:nunit --no-build --verbosity normal
+    - name: Submit results to Xray
+      uses: mikepenz/xray-action@v0.9.4
+      with:
+        username: "8F515DC5C71E4DB7A98A2C370E2890EC"
+        password: "5c417e8ca16deec5b8c14c9d74a66e9b0a3558fdcef26ffa72faef6ebd9c7e0f"
+        testPaths: "**/TestResults/TestResults.xml"
+        projectKey: "PXS"
+        testExecKey: "PXS-01"
