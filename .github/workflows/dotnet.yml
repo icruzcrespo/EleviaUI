@@ -23,8 +23,8 @@ jobs:
     - name: Submit results to Xray
       uses: mikepenz/xray-action@v0.9.4
       with:
-        username: "8F515DC5C71E4DB7A98A2C370E2890EC"
-        password: "5c417e8ca16deec5b8c14c9d74a66e9b0a3558fdcef26ffa72faef6ebd9c7e0f"
+        username: "A1E23A8D4286423BAD3F756D2DBC7C71"
+        password: "16075782d137236f5e72b7ffce458f455ca6758e8d04bc93f5a539a1a56e42b0"
         testPaths: "**/TestResults/TestResults.xml"
         projectKey: "PXS"
         testExecKey: "PXS-01"
