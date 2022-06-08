@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Submit results to Xray
-      uses: mikepenz/xray-action@v0.9.4
+      uses: mikepenz/xray-action@{latest-release}
       with:
         testPaths: "**/TestResults/TestResults.xml"
         projectKey: "PXS"
