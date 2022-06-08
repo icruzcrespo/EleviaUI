@@ -10,8 +10,10 @@ jobs:
 
     steps:
     - name: Submit results to Xray
-      uses: mikepenz/xray-action@{latest-release}
+      uses: mikepenz/xray-action@v2.4.0
       with:
+        username: "A1E23A8D4286423BAD3F756D2DBC7C71"
+        password: "16075782d137236f5e72b7ffce458f455ca6758e8d04bc93f5a539a1a56e42b0"
         testPaths: "**/TestResults/TestResults.xml"
         projectKey: "PXS"
         testExecKey: "PXS-01"
