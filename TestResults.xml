@@ -1,0 +1,43 @@
+<test-run id="2" duration="9.424" testcasecount="2" total="2" passed="1" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2022-06-08T 12:59:40Z" end-time="2022-06-08T 12:59:52Z">
+  <test-suite type="Assembly" name="EleviaUI.dll" fullname="C:\Users\icruz\Source\Repos\EleviaUI\EleviaUI\EleviaUI\bin\Debug\netcoreapp2.1\EleviaUI.dll" total="2" passed="1" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2022-06-08T 12:59:42Z" end-time="2022-06-08T 12:59:52Z" duration="9.424">
+    <test-suite type="TestSuite" name="EleviaUI" fullname="EleviaUI" total="2" passed="1" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2022-06-08T 12:59:42Z" end-time="2022-06-08T 12:59:52Z" duration="9.424">
+      <test-suite type="TestFixture" name="SpecFlowFeature1Feature" fullname="EleviaUI.SpecFlowFeature1Feature" classname="EleviaUI.SpecFlowFeature1Feature" total="2" passed="1" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2022-06-08T 12:59:42Z" end-time="2022-06-08T 12:59:52Z" duration="9.424">
+        <test-case name="AddThreeNumbers" fullname="EleviaUI.SpecFlowFeature1Feature.AddThreeNumbers" methodname="AddThreeNumbers" classname="SpecFlowFeature1Feature" result="Failed" start-time="2022-06-08T 12:59:42Z" end-time="2022-06-08T 12:59:48Z" duration="5.488" asserts="0" seed="1859909036">
+          <output><![CDATA[Given the first number is 50
+-> done: SpecFlowFeature1Steps.GivenTheFirstNumberIs(50) (2,2s)
+And the second number is 70
+-> error:   Expected: 70
+  But was:  120
+ (3,3s)
+
+]]></output>
+          <failure>
+            <message>  Expected: 70
+  But was:  120
+</message>
+            <stack-trace>   at AutomationElevia.SpecFlowFeature1Steps.GivenTheSecondNumberIs(Int32 p0) in C:\Users\icruz\Source\Repos\EleviaUI\EleviaUI\EleviaUI\SpecFlowFeature1Steps.cs:line 23
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 68
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan&amp; duration) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 567
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 481
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 234
+   at EleviaUI.SpecFlowFeature1Feature.ScenarioCleanup()
+   at EleviaUI.SpecFlowFeature1Feature.AddThreeNumbers() in C:\Users\icruz\Source\Repos\EleviaUI\EleviaUI\EleviaUI\SpecFlowFeature1.feature:line 11
+</stack-trace>
+          </failure>
+        </test-case>
+        <test-case name="AddTwoNumbers" fullname="EleviaUI.SpecFlowFeature1Feature.AddTwoNumbers" methodname="AddTwoNumbers" classname="SpecFlowFeature1Feature" result="Passed" start-time="2022-06-08T 12:59:48Z" end-time="2022-06-08T 12:59:52Z" duration="3.936" asserts="0" seed="1069525797">
+          <properties>
+            <property name="Category" value="mytag" />
+          </properties>
+          <output><![CDATA[Given the first number is 50
+-> done: SpecFlowFeature1Steps.GivenTheFirstNumberIs(50) (0,8s)
+And the second number is 120
+-> done: SpecFlowFeature1Steps.GivenTheSecondNumberIs(120) (3,1s)
+
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>
