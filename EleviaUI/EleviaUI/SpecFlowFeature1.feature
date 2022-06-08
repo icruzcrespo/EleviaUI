@@ -8,4 +8,4 @@ Scenario: Add two numbers
 
 Scenario: Add three numbers
 	Given the first number is 50
-	And the second number is 70
+	And the second number is 120
