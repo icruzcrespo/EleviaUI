@@ -15,7 +15,7 @@ jobs:
         username: "A1E23A8D4286423BAD3F756D2DBC7C71"
         password: "16075782d137236f5e72b7ffce458f455ca6758e8d04bc93f5a539a1a56e42b0"
         testPaths: "**/EleviaUI/TestResults.xml"
-        projectKey: "TXS"
-        testExecKey: "TXS-02"
+        projectKey: "TXE"
+        testExecKey: "TXE-01"
         testFormat: "nunit"
 
